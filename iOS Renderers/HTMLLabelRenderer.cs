@@ -6,6 +6,8 @@ using Foundation;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
+// source: https://forums.xamarin.com/discussion/56484/need-to-put-html-into-a-label
+
 [assembly: ExportRenderer(typeof(HtmlLabel), typeof(HtmlLabelRenderer))]
 namespace CodeBeaulieu.iOS
 {  
